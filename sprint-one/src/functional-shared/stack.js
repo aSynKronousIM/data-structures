@@ -31,7 +31,7 @@ stackMethods.pop = function() {
   if (this.end > 0) {
     this.end--;    
   }
-  
+
   var popped = this.storage[this.end];
   delete this.storage[this.end];
 
